@@ -4,7 +4,7 @@ const webNav = document.querySelector('[data-track-id="nav_web"]');
 const navElement = webNav.firstElementChild;
 const googleElement = navElement.cloneNode(true);
 
-googleElement.href = "https://google.co.uk/" + q;
+googleElement.href = "https://google.co.uk/search" + q;
 const textNode = googleElement.childNodes[2];
 textNode.textContent = textNode.textContent.replace("Web", "Google");
 
