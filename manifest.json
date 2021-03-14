@@ -1,0 +1,11 @@
+{
+  "mainfest_version": 2,
+  "name": "GooCosia",
+  "version": "0.0.1",
+  "description": "Adds a Google search button to Ecosia as Bing results are often poor when searching with code snippets",
+  "content_scripts": [
+    {
+      "matches": ["https://www.ecosia.org/search*", "js": "goocosia.js"]
+    }
+  ]
+}
